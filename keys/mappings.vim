@@ -15,7 +15,7 @@ inoremap [ []<Esc>i
 inoremap ( ()<Esc>i
 inoremap " ""<Esc>i
 inoremap ' ''<Esc>i
-vnoremap y "+y
+"vnoremap y "+y
 
 map s <nop>
 map R :source $MYVIMRC<CR>
@@ -28,8 +28,12 @@ map <left> :vertical resize-5<CR>
 map <right> :vertical resize+5<CR>
 
 map t :tabe<CR>
+" TAB in general mode will move to text buffer
+nnoremap <TAB> :bnext<CR>
+" SHIFT-TAB will go back
+nnoremap <S-TAB> :bprevious<CR>
 
-noremap b :call CompileRunGcc()<CR>
+noremap <C-b> :call CompileRunGcc()<CR>
 func! CompileRunGcc()
   exec "w"
   if &filetype == 'c'

@@ -20,5 +20,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'ianks/vim-tsx'
     Plug 'mhinz/vim-startify'
     Plug 'mhinz/vim-signify'
+    Plug 'preservim/nerdcommenter'
 
 call plug#end()
