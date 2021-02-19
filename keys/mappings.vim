@@ -77,3 +77,11 @@ func! CompileRunGcc()
 endfunc
 
 
+augroup netrw_mapping
+    autocmd!
+    autocmd filetype netrw call NetrwMapping()
+augroup END
+
+function! NetrwMapping()
+    noremap <buffer> i k
+endfunction
