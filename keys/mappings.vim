@@ -27,7 +27,7 @@ map <LEADER>j <C-w>h
 map <left> :vertical resize-5<CR>
 map <right> :vertical resize+5<CR>
 
-map t :tabe<CR>
+" map t :tabe<CR>
 " TAB in general mode will move to text buffer
 nnoremap <TAB> :bnext<CR>
 " SHIFT-TAB will go back
