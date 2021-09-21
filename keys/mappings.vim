@@ -33,6 +33,10 @@ nnoremap <TAB> :bnext<CR>
 " SHIFT-TAB will go back
 nnoremap <S-TAB> :bprevious<CR>
 
+" use <tab> and <s-tab> to navigation the completion list
+inoremap <expr> <C-k> pumvisible() ? "\<C-n>" : "\<Tab>"
+inoremap <expr> <C-i> pumvisible()? "\<C-p>" : "\<S-Tab>"
+
 noremap <C-b> :call CompileRunGcc()<CR>
 func! CompileRunGcc()
   exec "w"

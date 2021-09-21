@@ -1,7 +1,7 @@
 " set leader key
 let g:mapleader = "\<Space>"
 
-   syntax enable                           " Enables syntax highlighing
+syntax enable                           " Enables syntax highlighing
 set number
 set hidden                              " Required to keep multiple buffers open multiple buffers
 set wrap                              " Display long lines as just one line

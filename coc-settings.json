@@ -35,7 +35,7 @@
   "explorer.previewAction.onHover": false,
   "explorer.keyMappings.global": {
     "<cr>": ["expandable?", "expand", "open"],
+     "<cr>": ["wait", "expanded?", "collapse", "expand"]
     // "v": "open:vsplit",
-    // "<cr>": ["wait", "expanded?", "collapse", "expand"]
   }
 }
