@@ -33,6 +33,7 @@ let g:which_key_map['S'] = [ ':Startify'                  , 'start screen' ]
 let g:which_key_map['g'] = [ ':Rg'                        , 'search text' ]
 let g:which_key_map['b'] = [ ':BLines'                    , ':Blines' ]
 let g:which_key_map['v'] = [ '<C-W>v'                     , 'split right']
+let g:which_key_map['q'] = [ ':History:'                   , 'command history']
 "let g:which_key_map['z'] = [ 'Goyo'                       , 'zen' ]
 
 " s is for search

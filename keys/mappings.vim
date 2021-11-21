@@ -17,11 +17,11 @@ inoremap " ""<Esc>i
 inoremap ' ''<Esc>i
 "vnoremap y "+y
 
-map s <nop>
+"map s <nop>
 map R :source $MYVIMRC<CR>
 
-map sd :set splitright<CR>:vsplit<CR>
-map sa :set nosplitright<CR>:vsplit<CR>
+"map sd :set splitright<CR>:vsplit<CR>
+"map sa :set nosplitright<CR>:vsplit<CR>
 map <LEADER>l <C-w>l
 map <LEADER>j <C-w>h
 map <left> :vertical resize-5<CR>
