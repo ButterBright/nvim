@@ -22,6 +22,12 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'mhinz/vim-startify'
     Plug 'mhinz/vim-signify'
     Plug 'preservim/nerdcommenter'
-    Plug 'fatih/vim-go'
+    " Plug 'fatih/vim-go'
+    Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
+    Plug 'voldikss/vim-floaterm'
+    Plug 'liuchengxu/vim-which-key'
+    Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+    Plug 'junegunn/fzf.vim'
+    Plug 'airblade/vim-rooter'
 
 call plug#end()

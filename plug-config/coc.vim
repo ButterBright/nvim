@@ -1,4 +1,4 @@
-let g:coc_global_extensions =  ['coc-json', 'coc-tsserver', 'coc-emmet', 'coc-tslint', 'coc-prettier', 'coc-yank', 'coc-explorer']
+let g:coc_global_extensions =  ['coc-json', 'coc-tsserver', 'coc-emmet', 'coc-tslint', 'coc-prettier', 'coc-yank', 'coc-explorer', 'coc-go']
 
 :nmap <space>e :CocCommand explorer<CR>
 
@@ -45,8 +45,8 @@ let g:coc_explorer_global_presets = {
 " Use preset argument to open it
 nmap <space>ed :CocCommand explorer --preset .vim<CR>
 nmap <space>f :CocCommand explorer --preset floating<CR>
-nmap <space>ec :CocCommand explorer --preset cocConfig<CR>
-nmap <space>eb :CocCommand explorer --preset buffer<CR>
+"nmap <space>ec :CocCommand explorer --preset cocConfig<CR>
+"nmap <space>eb :CocCommand explorer --preset buffer<CR>
 
 " List all presets
 nmap <space>el :CocList explPresets
