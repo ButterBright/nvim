@@ -15,10 +15,14 @@ inoremap [ []<Esc>i
 inoremap ( ()<Esc>i
 inoremap " ""<Esc>i
 inoremap ' ''<Esc>i
+noremap  <leader>[ <<
+noremap  <leader>] >>
 "vnoremap y "+y
 
 "map s <nop>
 map R :source $MYVIMRC<CR>
+map q: <nop>
+map Q :bd<CR>
 
 "map sd :set splitright<CR>:vsplit<CR>
 "map sa :set nosplitright<CR>:vsplit<CR>
@@ -29,9 +33,9 @@ map <right> :vertical resize+5<CR>
 
 " map t :tabe<CR>
 " TAB in general mode will move to text buffer
-nnoremap <TAB> :bnext<CR>
+"nnoremap <TAB> :bnext<CR>
 " SHIFT-TAB will go back
-nnoremap <S-TAB> :bprevious<CR>
+"nnoremap <S-TAB> :bprevious<CR>
 
 " use <tab> and <s-tab> to navigation the completion list
 "inoremap <expr> <C-k> pumvisible() ? "\<C-n>" : "\<Tab>"

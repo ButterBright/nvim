@@ -22,7 +22,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'mhinz/vim-startify'
     Plug 'mhinz/vim-signify'
     Plug 'preservim/nerdcommenter'
-    " Plug 'fatih/vim-go'
+    Plug 'fatih/vim-go'
     Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
     Plug 'voldikss/vim-floaterm'
     Plug 'liuchengxu/vim-which-key'
@@ -31,5 +31,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'airblade/vim-rooter'
     Plug 'justinmk/vim-sneak'
     Plug 'unblevable/quick-scope'
+    Plug 'kyazdani42/nvim-web-devicons'
+    Plug 'romgrk/barbar.nvim'
 
 call plug#end()
