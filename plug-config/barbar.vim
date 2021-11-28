@@ -15,7 +15,7 @@ nnoremap <silent>    <leader>7 :BufferGoto 7<CR>
 nnoremap <silent>    <leader>8 :BufferGoto 8<CR>
 nnoremap <silent>    <leader>9 :BufferLast<CR>
 " Pin/unpin buffer
-nnoremap <silent>    <leader>p :BufferPin<CR>
+" nnoremap <silent>    <leader>p :BufferPin<CR>
 " Close buffer
 "nnoremap <silent>   <leader>z :BufferClose<CR>
 " Wipeout buffer

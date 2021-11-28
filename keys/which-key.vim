@@ -33,8 +33,14 @@ let g:which_key_map['S'] = [ ':Startify'                  , 'start screen' ]
 let g:which_key_map['g'] = [ ':Rg'                        , 'search text' ]
 let g:which_key_map['b'] = [ ':BLines'                    , ':Blines' ]
 let g:which_key_map['v'] = [ '<C-W>v'                     , 'split right']
-let g:which_key_map['q'] = [ ':History:'                   , 'command history']
+let g:which_key_map['q'] = [ ':History:'                  , 'command history']
 "let g:which_key_map['z'] = [ 'Goyo'                       , 'zen' ]
+
+let g:which_key_map.F = {
+      \ 'name' : '+find & replace' ,
+      \ 'b' : [':Farr --source=vimgrep'    , 'buffer'],
+      \ 'p' : [':Farr --source=rgnvim'     , 'project'],
+      \ }
 
 " s is for search
 " let g:which_key_map.s = {
